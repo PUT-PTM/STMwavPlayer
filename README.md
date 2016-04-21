@@ -10,7 +10,9 @@
  <h3> Credits </h3>
  <br>
  Marcin Maćkowiak
+ <br>
  Kamil Szulc
+ <br>
  <br>
  The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
  <br>
