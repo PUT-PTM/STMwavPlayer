@@ -8,7 +8,7 @@
  <h3> Attributions </h3>
  <h3> License </h3>
  <h3> Credits </h3>
- <br>
+
  Marcin Maćkowiak
  <br>
  Kamil Szulc
