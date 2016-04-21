@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=wavPlayerv2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\wavPlayerv2 -TC:\CooCox\CoIDE\configuration\ProgramData\wavPlayerv2/arm-gcc-link.ld -g">
+      <target file="wavPlayerv2.elf" lastModified="15438ff047e">
+         <source file="..\obj\tm_stm32f4_fatfs.o" lastModified="15438fedce9"/>
+         <source file="..\obj\unicode.o" lastModified="15438fede03"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="15438fedff7"/>
+         <source file="..\obj\tm_stm32f4_disco.o" lastModified="15438fee12b"/>
+         <source file="..\obj\diskio.o" lastModified="15438fee30f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15438fee3ea"/>
+         <source file="..\obj\main.o" lastModified="15438fee5ce"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15438fee7f1"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="15438fee987"/>
+         <source file="..\obj\syscall.o" lastModified="15438feea72"/>
+         <source file="..\obj\fatfs_sd_sdio.o" lastModified="15438feeec7"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15438fef037"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15438fef150"/>
+         <source file="..\obj\syscalls.o" lastModified="15438fef289"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="15438fef42f"/>
+         <source file="..\obj\ff.o" lastModified="15438fef9dd"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15438fefb83"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="15438fefd58"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15438fefe92"/>
+         <source file="..\obj\misc.o" lastModified="15438feffdb"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15438ff0161"/>
+      </target>
+   </processor>
+</history>

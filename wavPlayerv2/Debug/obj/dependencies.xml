@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Marcin Mackowiak /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\attributes /I..\..\..\..\..\Users\Marcin Mackowiak\Desktop /I..\..\..\workspace\wavPlayerv2\cmsis /I..\..\..\workspace\wavPlayerv2 /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads /I..\..\..\workspace\wavPlayerv2\cmsis_lib /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines (1) /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay /I..\..\..\workspace /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers /I..\..\..\workspace\wavPlayerv2\cmsis_boot /I..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2) /I..\..\..\..\..\Users /I..\..\..\workspace\wavPlayerv2\cmsis_lib\include">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153f264fc68">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.c" lastModified="14bb5aa4978">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h" lastModified="146118cbab0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h" lastModified="14927dc8f9d">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\attributes\attributes.h" lastModified="149ebc5b0d0">
+      </source>
+      <source file="..\..\..\codec.h" lastModified="13b588bb380">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="153f27ab45b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ffconf.h" lastModified="14e5356f688">
+      </source>
+      <source file="..\..\..\codec.c" lastModified="13a80201df4">
+         <include file="..\..\..\codec.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Desktop\tm_stm32f4_disco.h" lastModified="153f243bb41">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="153f27ab469">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153f264c2f1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Desktop\tm_stm32f4_disco.c" lastModified="153f2442d09">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Desktop\tm_stm32f4_disco.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h" lastModified="14e48a47008">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\attributes\attributes.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="153f264c2f1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.c" lastModified="14ddc3290f8">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_usb.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sdram.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_spi_flash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd_sdio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_timer_properties.h" lastModified="149f34a3a69">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\unicode.c" lastModified="14b6fd41140">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc932.c"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc936.c"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc949.c"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc950.c"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\ccsbcs.c"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="153f264cb6d">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="153f2654574">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="153f264cb4e">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc932.c" lastModified="14994e0e8c0">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="153f2654565">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc950.c" lastModified="14994e0e8c0">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="153f264c717">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd_sdio.h" lastModified="14f222999bc">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="153f2659f50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="153f2768823">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="153f264fc59">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="15438c1aa50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd_sdio.c" lastModified="153f27b9631">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="13e14c0fd72">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\codec.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15438c2a52a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="153f27c5289">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_usb.h" lastModified="1494bde0d60">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="15438c1aa29">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="153f26505a7">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="15438c2a4fe">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="15438fedb66">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Desktop\tm_stm32f4_disco.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\codec.h"/>
+         <include file="..\..\..\codec.c"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="153f264cb7c">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\syscall.c" lastModified="14d296b2408">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.h" lastModified="14f25c9d501">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\attributes.h" lastModified="149ebc5b110">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.c" lastModified="14f25c9c916">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_spi_flash.h" lastModified="14e6d39aff0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sdram.h" lastModified="14e2496e650">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.h" lastModified="152630afec7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\attributes.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.c" lastModified="14fdb0eed12">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\drivers\fatfs_sd.h" lastModified="153f25c31d1">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\diskio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_delay\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\tm_stm32f4_fatfs.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\ccsbcs.c" lastModified="14994e0e8c0">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc936.c" lastModified="14994e0e8c0">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="153f264c756">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h" lastModified="1525418439d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="153f264c35e">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.c" lastModified="14de25630e8">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_gpio (2)\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\option\cc949.c" lastModified="14994e0e8c0">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153f264c320">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ff.h" lastModified="14b6fd41140">
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\integer.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Marcin Mackowiak\Downloads\tm_stm32f4_fatfs\fatfs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153f264c34f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="153f2659f35">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="153f2768831">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+</dependencies>
