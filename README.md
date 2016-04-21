@@ -8,8 +8,11 @@
  <h3> Attributions </h3>
  <h3> License </h3>
  <h3> Credits </h3>
- 
- <t>The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
+ <br>
+ Marcin Maćkowiak
+ Kamil Szulc
+ <br>
+ The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
  <br>
  <br>
  Supervisor: Tomasz Mańkowski
