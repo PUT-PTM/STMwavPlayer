@@ -1,6 +1,6 @@
  <center> <h1> <b><i> # STMwavPlayer </i></b> </h1> </center>
   <h3> Overview </h3>
-  #STMwavPalyer plays songs from SD card by using microcontroler STM32F407VG
+  #STMwavPalyer plays songs from SD card using a microcontroler (STM32F407VG).
  <h3> Description </h3>
  <h3> Tools </h3>
  <h3> How to run </h3>
