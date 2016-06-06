@@ -1,162 +1,105 @@
-///*	Features:
-// 	 - FatFS by Chan supported, version RO. 11
-// 	 "tm_stm32f4_delay.h"
-// 	 "tm_stm32f4_disco.h"	Read SD card with FatFs by Tilen Majerle
-// 	 "tm_stm32f4_fatfs.h"
-//
-// 	 "codec.h" and "codec.c"
-//*/
-//
-#include "defines.h"
 #include "stm32f4xx.h"
-#include "tm_stm32f4_delay.h"
-#include "tm_stm32f4_disco.h"
-#include "tm_stm32f4_fatfs.h"
-#include "stdbool.h"
-#include <stdio.h>
-#include <string.h>
-#include <main.h>
-#include <codec.h>
-#include <codec.c>
-#include <stm32f4xx_dma.h>
-#include <stm32f4xx_spi.h>
-#include <stm32f4xx_rcc.h>
+#include "system_stm32f4xx.h"
+#include "stm32f4xx_syscfg.h"
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_conf.h"
+#include "stm32f4xx_exti.h"
+#include "stm32f4xx_dma.h"
+#include "stm32f4xx_rcc.h"
+#include "misc.h"
+#include "delay.h"
+#include "codec.h"
+#include "ff.h"
+#include <stdbool.h>
 
-int tab1[20000]; //bufor dzwiêku
-    int petla;
-    int wym_tab;
-    u32 sample_buffer;
-    //Fatfs object
-        FATFS FatFs;
-        //File object
-        FIL fil;
-int main(void)
+
+FATFS fatfs;
+FIL file;
+u16 DMA_buffer[2048];
+const char* songs[4] = {"s0.wav","s1.wav","s2.wav","s3.wav"};
+
+
+
+int main( void )
 {
+	SystemInit();
+	SD_init();// init SPI pod SD
+	FRESULT fresult;
+	disk_initialize(0);// inicjalizacja karty
+	fresult = f_mount( &fatfs, 1,1 );// zarejestrowanie karty w systemie
+
+	codec_init();
+	codec_ctrl_init();
+
+	I2S_Cmd(CODEC_I2S, ENABLE); // CODEC_I2S to SPI3
+	dma_init();
 
 
-    char sample1[3];
-    unsigned int ByteToRead = 45;
-    unsigned int ByteRead, i;
-    //Initialize system
-    SystemInit();
-    //Initialize delays
-    TM_DELAY_Init();
-    //Initialize LEDs
-    TM_DISCO_LedInit();
-    int s;
-    //int tab[2000]={0};
-    FRESULT fresult;
+	WAV_play("Beat.wav");
 
-    //u16 probka;
-    WORD ile_bajtow;
+	for(;;)
+	{ }
 
-    	u8 temp[44];		//pomijane dane z pliku .Wav
-    	u16 rozmiar_probki,probka;
-    	u32 rozmiar_danych,czestotliwosc;
-    	int j,ile;//,i;;
-    	char liczba[5];
-
-
-
-    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
-
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-    GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-
-    GPIO_Init(GPIOD, &GPIO_InitStructure);
-
-    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-
-    codec_init();
-    codec_ctrl_init();
-
-    I2S_Cmd(CODEC_I2S, ENABLE);
-
-    //Mount drive
-    fresult = (f_mount(&FatFs, "", 1));
-        //Mounted OK, turn on RED LED
-        TM_DISCO_LedOn(LED_RED);
-        //Try to open file
-        if (f_open(&fil, "0.wav", FA_OPEN_ALWAYS | FA_READ | FA_WRITE) == FR_OK)
-        {
-            //File opened, turn off RED and turn on GREEN led
-            TM_DISCO_LedOn(LED_GREEN);
-            TM_DISCO_LedOff(LED_RED);
--            f_read(&fil, &temp[0], 32, &ile_bajtow);
-            f_read(&fil, &rozmiar_probki, 2, &ile_bajtow);
-            f_read(&fil, &temp[0], 6, &ile_bajtow);
-            f_read(&fil, &rozmiar_danych, 4, &ile_bajtow);
-            ile=rozmiar_danych/rozmiar_probki;
-            //for(i=0; i<(rozmiar_danych/rozmiar_probki); i++) ile++;
-            	wym_tab=20000;
-            	//for(i=0; i<20000; i++) wym_tab++;
-
-            	while(ile>0)
-            	{
-            		if(wym_tab > ile) petla = ile; else petla = wym_tab;
-
-            		for(i=0; i<petla; i++)
-            		{
-            			f_read(&fil, &probka,rozmiar_probki, &ile_bajtow);
-            			tab1[i] = probka;
-            		}
-            		for(i=0; i<petla; i++)
-            		{
-            			wyslij_dzwiek(tab1[i]);
-            		}
-            		ile = ile-petla;
-            	}
-//            	if (SPI_I2S_GetFlagStatus(CODEC_I2S, SPI_I2S_FLAG_TXE))
-//            	{
-//                   for(i=0; i<45; i++)
-//                   {
-//                         SPI_I2S_SendData(CODEC_I2S, sample);
-//                         sample = tab[i];
-//                   }
-//            	}
-
-            }
-//        ile=rozmiar_danych/rozmiar_probki;
-//
-//                    	wym_tab=20000;
-//
-//                    	while(ile>0)
-//                    	{
-//                    		if(wym_tab > ile) petla = ile; else petla = wym_tab;
-//
-//                    		for(i=0; i<petla; i++)
-//                    		{
-//                    			f_read(&fil, &probka,rozmiar_probki, &ile_bajtow);
-//                    			tab1[i] = probka;
-//                    		}
-//                    		for(i=0;i<petla;i++)
-//                    				{
-//                    					wyslij_dzwiek(tab1[i]);
-//                    					wyslij_dzwiek(tab1[i]);
-//                    				}
-//                    		ile = ile-petla;
-//                    	}
-        f_close(&fil);
-        f_mount(0, "", 1);
-    }
-
-void wyslij_dzwiek(int dzwiek)
+	return 0;
+}
+void dma_init()
 {
-	int b;
-	b=1;
+	DMA_InitTypeDef  DMA_init;
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_DMA1, ENABLE);
+	DMA_DeInit(DMA1_Stream5);
 
-	do
-	{
-		if (SPI_I2S_GetFlagStatus(CODEC_I2S, SPI_I2S_FLAG_TXE))
-		{
-			SPI_I2S_SendData(CODEC_I2S,dzwiek);
-			b=0;
-		}
-	}while(b);
+	DMA_init.DMA_Channel = DMA_Channel_0; // kanal
+	DMA_init.DMA_PeripheralBaseAddr = (uint32_t)(&(SPI3->DR));// adres docelowy (SPI3 to kodek)
+	DMA_init.DMA_Memory0BaseAddr = (uint32_t)&DMA_buffer;// adres zrodlowy
+	DMA_init.DMA_DIR = DMA_DIR_MemoryToPeripheral;// memory to peripherial
+	DMA_init.DMA_BufferSize = 2048;// liczba danych do przeslania (Probka 2B)
+	DMA_init.DMA_MemoryInc = DMA_MemoryInc_Enable;
+	DMA_init.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
+	DMA_init.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord;
+	DMA_init.DMA_Mode = DMA_Mode_Circular;
+	DMA_init.DMA_Priority = DMA_Priority_VeryHigh;
+	DMA_init.DMA_MemoryDataSize = DMA_MemoryDataSize_HalfWord;// pol-slowo (flaga htif)
+	DMA_init.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;
+	DMA_init.DMA_MemoryBurst = DMA_MemoryBurst_Single;
+	DMA_init.DMA_FIFOMode = DMA_FIFOMode_Disable; //bez kolejki
+	DMA_init.DMA_FIFOThreshold = DMA_FIFOThreshold_HalfFull;
+
+	DMA_Init(DMA1_Stream5, &DMA_init);
+	DMA_Cmd(DMA1_Stream5, ENABLE);
+
+	SPI_I2S_DMACmd(SPI3,SPI_I2S_DMAReq_Tx,ENABLE);
+	SPI_Cmd(SPI3,ENABLE);
 }
 
+void WAV_play(const char *FileName)
+{
+	FRESULT res;
+	UINT cnt;
 
+	res = f_open(&file, FileName, FA_READ);
+	f_lseek(&file,44);
+	f_read(&file, &DMA_buffer[0], 2048, &cnt);
+	volatile ITStatus it_st;
 
+	while(1)
+	{
+		it_st = RESET;
+		while(it_st == RESET)
+		{
+			it_st = DMA_GetFlagStatus(DMA1_Stream5, DMA_FLAG_HTIF5);
+		}
+		f_read(&file, &DMA_buffer[0], 2048, &cnt);
+		DMA_ClearFlag(DMA1_Stream5, DMA_FLAG_HTIF5);
+		if(cnt<1024)break;
 
+		it_st = RESET;
+		while(it_st == RESET)
+		{
+		     it_st = DMA_GetFlagStatus(DMA1_Stream5, DMA_FLAG_TCIF5);
+		}
+		f_read (&file,&DMA_buffer[1024],2048,&cnt);
+		DMA_ClearFlag(DMA1_Stream5, DMA_FLAG_TCIF5 );
+		if(cnt<1024)break;
+	}
+	f_close(&file);
+}

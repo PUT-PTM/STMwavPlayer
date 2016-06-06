@@ -89,9 +89,9 @@
     <File name="ff.h" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/fatfs/ff.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="tm_stm32f4_gpio.h" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_gpio (2)/tm_stm32f4_gpio.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="integer.h" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/fatfs/integer.h" type="1"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_spi.c" path="cmsis_lib/source/stm32f4xx_spi.c" type="1"/>
     <File name="tm_stm32f4_disco.c" path="../../../../Users/Marcin Mackowiak/Desktop/tm_stm32f4_disco.c" type="1"/>
@@ -113,8 +113,8 @@
     <File name="tm_stm32f4_disco.h" path="../../../../Users/Marcin Mackowiak/Desktop/tm_stm32f4_disco.h" type="1"/>
     <File name="unicode.c" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/fatfs/option/unicode.c" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="fatfs_sd_sdio.h" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/fatfs/drivers/fatfs_sd_sdio.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_sdio.c" path="cmsis_lib/source/stm32f4xx_sdio.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_sdio.h" path="cmsis_lib/include/stm32f4xx_sdio.h" type="1"/>
@@ -130,8 +130,8 @@
     <File name="tm_stm32f4_gpio.c" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_gpio (2)/tm_stm32f4_gpio.c" type="1"/>
     <File name="syscalls" path="" type="2"/>
     <File name="attributes.h" path="../../../../Users/Marcin Mackowiak/Downloads/attributes/attributes.h" type="1"/>
-    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
     <File name="syscall.c" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/fatfs/option/syscall.c" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
     <File name="cmsis_lib/include" path="" type="2"/>
     <File name="tm_stm32f4_fatfs.h" path="../../../../Users/Marcin Mackowiak/Downloads/tm_stm32f4_fatfs/tm_stm32f4_fatfs.h" type="1"/>
     <File name="defines.h" path="../../../../Users/Marcin Mackowiak/Downloads/defines (1)/defines.h" type="1"/>
