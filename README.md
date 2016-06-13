@@ -2,6 +2,7 @@
   <h3> Overview </h3>
    #STMwavPalyer plays songs from SD card using a microcontroler (STM32F407VG).
   <h3> Description </h3>
+  The target of our procjet is to decode ".wav" file uploaded on microSD card and play it by using STM32F4xxx microcontroler. STM board is connected with microSD Adapter by SPI. We couldn't use SDIO connection because it would cause a conflict with codec's pins. STM32F4xxx is also connected with potentiometer, which is using to control volume of music. Project was made in cooperation with Marcin Maćkowiak and Kamil Szulc. 
   <h3> Tools </h3>
    CooCox CoIDE 1.7.8
   <h3> What is needed </h3>
