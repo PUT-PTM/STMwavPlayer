@@ -6,7 +6,7 @@
  CooCox CoIDE, Version 1.7.8
  <h3> How to run </h3>
  To run the project correctly you have to have:
- &#9830; <pre>Microcontroler STM32F4xxx </pre>
+ &#9830; <pre>&#9830;Microcontroler STM32F4xxx </pre>
  <h3> How to compile </h3>
 
  <h3> Attributions </h3>
