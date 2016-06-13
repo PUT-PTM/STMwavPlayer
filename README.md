@@ -20,6 +20,10 @@
 &nbsp;&nbsp;&nbsp; PB14 <---> MISO <br>
 &nbsp;&nbsp;&nbsp; PB15 <---> MOSI <br>
 &nbsp;&nbsp;&nbsp; GND <---> GND <br>
+2. Connect potentiometer with STM board <br>
+&nbsp;&nbsp;&nbsp; GND <---> PA5 <br>
+&nbsp;&nbsp;&nbsp; PA1 <---> PA7 <br>
+&nbsp;&nbsp;&nbsp; VDD <---> PA8 <br>
  
 <h3> How to compile </h3>
 
