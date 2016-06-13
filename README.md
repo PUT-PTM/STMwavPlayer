@@ -23,7 +23,6 @@
    Connect potentiometer to STM board (GND,PA1,VDD) <br>
    Upload WAV files on microSD card <br>
    Plug microSD card into microSD Adapter <br>
-   Download code to flash <br>
   <h3> How to compile </h3>
    Just download the project from github.com/PUT-PTM/STMwavPlayer ,compile it with Coocox CoIDE 1.7.8 and download it to flash <br>
   <h3> Attributions </h3>
