@@ -5,13 +5,21 @@
  <h3> Tools </h3>
  CooCox CoIDE 1.7.8
  <h3> What is needed </h3>
- To run the project correctly you have to have: <br>
-    &#9830; Microcontroler STM32F4xxx-Discovery <br>
+ To run the project correctly you have to have: <br> <br>
+ &nbsp; &#9830; Microcontroler STM32F4xxx-Discovery <br>
     &#9830; microSD Adapter with microSD card <br>
     &#9830; Potentiometer <br>
     &#9830; a few cables <br>
  <h3> How to run </h3>
  1. Connect STM board with microSD Adapter by using cables:
+STM32 <---> SD Card Module
+GND <---> GND
+3V <---> 3V3
+PB11 <---> CS
+PB13 <---> SCK
+PB14 <---> MISO
+PB15 <---> MOSI
+GND <---> GND
  
  <h3> How to compile </h3>
 
