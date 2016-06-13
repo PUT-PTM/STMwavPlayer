@@ -11,15 +11,15 @@
  &nbsp;&nbsp;&nbsp; &#9830; Potentiometer <br>
  &nbsp;&nbsp;&nbsp; &#9830; a few cables <br>
  <h3> How to run </h3>
- 1. Connect STM board with microSD Adapter by using cables:
-STM32 <---> SD Card Module <br>
-GND <---> GND <br>
-3V <---> 3V3 <br>
-PB11 <---> CS <br>
-PB13 <---> SCK <br>
-PB14 <---> MISO <br>
-PB15 <---> MOSI <br>
-GND <---> GND <br>
+ 1. Connect STM board with microSD Adapter by using cables: <br>
+&nbsp;&nbsp;&nbsp; STM32 <---> SD Card Module <br>
+&nbsp;&nbsp;&nbsp; GND <---> GND <br>
+&nbsp;&nbsp;&nbsp; 3V <---> 3V3 <br>
+&nbsp;&nbsp;&nbsp; PB11 <---> CS <br>
+&nbsp;&nbsp;&nbsp; PB13 <---> SCK <br>
+&nbsp;&nbsp;&nbsp; PB14 <---> MISO <br>
+&nbsp;&nbsp;&nbsp; PB15 <---> MOSI <br>
+&nbsp;&nbsp;&nbsp; GND <---> GND <br>
  
  <h3> How to compile </h3>
 
