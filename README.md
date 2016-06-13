@@ -21,9 +21,11 @@
 &nbsp;&nbsp;&nbsp; &#9830;PB15 <---> MOSI <br>
 &nbsp;&nbsp;&nbsp; &#9830;GND <---> GND <br>
  Connect potentiometer with STM board <br>
-&nbsp;&nbsp;&nbsp; &#9830;GND <---> PA5 <br>
-&nbsp;&nbsp;&nbsp; &#9830;PA1 <---> PA7 <br>
-&nbsp;&nbsp;&nbsp; &#9830;VDD <---> PA8 <br>
+&nbsp;&nbsp;&nbsp; &#9830;GND <--->  <br>
+&nbsp;&nbsp;&nbsp; &#9830;PA1 <--->  <br>
+&nbsp;&nbsp;&nbsp; &#9830;VDD <--->  <br>
+ Upload WAV files on microSD card <br>
+ Plug microSD card into microSD Adapter <br>
  
 <h3> How to compile </h3>
 
