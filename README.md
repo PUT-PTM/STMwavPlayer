@@ -21,21 +21,19 @@
 &nbsp;&nbsp;&nbsp; PB15 <---> MOSI <br>
 &nbsp;&nbsp;&nbsp; GND <---> GND <br>
  
- <h3> How to compile </h3>
+<h3> How to compile </h3>
 
- <h3> Attributions </h3>
- <h3> License </h3>
- <h3> Credits </h3>
-
- Marcin Maćkowiak
- <br>
+<h3> Attributions </h3>
+<h3> License </h3>
+<h3> Credits </h3>
+ Marcin Maćkowiak <br>
  Kamil Szulc
- <br>
- <br>
- The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
- <br>
- <br>
- Supervisor: Tomasz Mańkowski
+<br>
+<br>
+The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
+<br>
+<br>
+Supervisor: Tomasz Mańkowski
  
  
  
