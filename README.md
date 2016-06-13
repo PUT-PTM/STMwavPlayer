@@ -30,6 +30,7 @@
    http://stm32f4-discovery.net/2014/07/library-21-read-sd-card-fatfs-stm32f4xx-devices/ <br>
    https://www.youtube.com/watch?v=EYs3f4uwYTo <br>
    http://www.mind-dump.net/configuring-the-stm32f4-discovery-for-audio <br>
+   http://forbot.pl/blog/artykuly/programowanie/kurs-stm32-6-pomiar-napiecia-przetwornik-adc-id8462 <br>
    
    
   <h3> License </h3>
