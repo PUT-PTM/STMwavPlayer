@@ -3,10 +3,21 @@
   #STMwavPalyer plays songs from SD card using a microcontroler (STM32F407VG).
  <h3> Description </h3>
  <h3> Tools </h3>
- CooCox CoIDE, Version 1.7.8
- <h3> How to run </h3>
+ CooCox CoIDE 1.7.8
+ <h3> What is needed </h3>
  To run the project correctly you have to have:
- &#9830; <pre>&#9830;Microcontroler STM32F4xxx </pre>
+ <pre>&#9830; Microcontroler STM32F4xxx-Discovery </pre>
+ <pre>&#9830; microSD Adapter with microSD card </pre>
+ <pre>&#9830; Potentiometer </pre>
+ <pre>&#9830; a few cables </pre>
+ <h3> How to run </h3>
+ 1. Connect STM board with microSD Adapter by using cables:
+ <pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
+<pre></pre>
  <h3> How to compile </h3>
 
  <h3> Attributions </h3>
