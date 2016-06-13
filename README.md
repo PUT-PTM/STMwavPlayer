@@ -23,8 +23,9 @@
    Connect potentiometer to STM board (GND,PA1,VDD) <br>
    Upload WAV files on microSD card <br>
    Plug microSD card into microSD Adapter <br>
+   Download code to flash <br>
   <h3> How to compile </h3>
-   Just download the project from github.com/PUT-PTM/STMwavPlayer and compile it with Coocox CoIDE 1.7.8 <br>
+   Just download the project from github.com/PUT-PTM/STMwavPlayer ,compile it with Coocox CoIDE 1.7.8 and download it to flash <br>
   <h3> Attributions </h3>
    http://elm-chan.org/fsw/ff/00index_e.html FatFs R0.12 29 april 2016 <br>
    http://stm32f4-discovery.net/2014/07/library-21-read-sd-card-fatfs-stm32f4xx-devices/ <br>
