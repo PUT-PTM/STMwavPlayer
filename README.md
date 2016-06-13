@@ -32,7 +32,7 @@
    &#9830; https://www.youtube.com/watch?v=EYs3f4uwYTo <br>
    &#9830; http://www.mind-dump.net/configuring-the-stm32f4-discovery-for-audio <br>
    &#9830; http://forbot.pl/blog/artykuly/programowanie/kurs-stm32-6-pomiar-napiecia-przetwornik-adc-id8462 <br>
-   &#diams;
+   
    
   <h3> License </h3>
    MIT
