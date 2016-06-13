@@ -27,10 +27,16 @@
    Just download the project from github.com/PUT-PTM/STMwavPlayer and compile it with Coocox CoIDE 1.7.8 <br>
   <h3> Attributions </h3>
    http://elm-chan.org/fsw/ff/00index_e.html <br>
+   http://stm32f4-discovery.net/2014/07/library-21-read-sd-card-fatfs-stm32f4xx-devices/ <br>
+   https://www.youtube.com/watch?v=EYs3f4uwYTo <br>
+   FatFs R0.12 29 april 2016 <br>
+   http://www.mind-dump.net/configuring-the-stm32f4-discovery-for-audio <br>
+   
+   
   <h3> License </h3>
   <h3> Credits </h3>
    Marcin Maćkowiak <br>
-   Kamil Szulc <br>
+   Kamil Szulc <br> <br>
    The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
   <br>
   <br>
