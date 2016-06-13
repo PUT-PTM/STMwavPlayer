@@ -34,6 +34,7 @@
    
    
   <h3> License </h3>
+   MIT
   <h3> Credits </h3>
    Marcin Maćkowiak <br>
    Kamil Szulc <br> <br>
